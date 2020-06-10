@@ -96,14 +96,15 @@ body {
     padding: 0px 50px 0;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     background: linear-gradient(0.25turn, #ec8484a1, #9198e5a6);
+    font-size: 20px;
 }
 
 .logo {
     background-image: url(img/logo.png);
     background-repeat: no-repeat;
     background-position: 52%;
-    background-size: 200px;
-    height: 150px;
+    background-size: 300px;
+    height: 220px;
 }
 
 .pikchalist>li:hover {
@@ -130,16 +131,19 @@ body {
     display: inline-block;
 }
 
-.challange-number {
+.challenge-number {
     display: block;
 }
 
 img {
-    height: 50px;
+    max-height: 90px;
+    display: inline-block;
+    padding-top: 10px;
+    border-radius: 30%;
 }
 
 li {
-    height: 70px;
+    height: 120px;
     text-align: center;
     line-height: 18px;
     padding: 0 20px;
@@ -151,21 +155,6 @@ li {
 
 .p2 {
     display: inline-block;
-}
-
-table {
-    border-collapse: collapse;
-}
-
-tr:nth-child(even) {
-    background-color: #dddddd;
-}
-
-td,
-th {
-    border: 1px solid grey;
-    text-align: left;
-    padding: 8px;
 }
 
 li:first-child:hover {
@@ -187,7 +176,7 @@ li:hover {
 .p1list li:nth-child(1) {
     background-image: url(img/video-game-heart-png-9.png);
     background-repeat: no-repeat;
-    background-size: 50px;
+    background-size: 67px;
     background-position: center 16px;
     font-weight: 800;
 }
@@ -195,18 +184,15 @@ li:hover {
 .p2list li:nth-child(1) {
     background-image: url(img/legend-of-zelda.png);
     background-repeat: no-repeat;
-    background-size: 37px;
+    background-size: 50px;
     background-position: center 24px;
     font-weight: 800;
 }
 
 .pikchalist li:nth-child(1) {
     color: hotpink;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 800;
     text-shadow: 1px 1px purple;
-}
-
-.pikchalist li:first-child {
     pointer-events: none;
 }
