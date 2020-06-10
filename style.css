@@ -144,6 +144,7 @@ img {
 
 li {
     height: 120px;
+    width: 200px;
     text-align: center;
     line-height: 18px;
     padding: 0 20px;
@@ -168,9 +169,8 @@ li:first-child:hover {
 li:hover {
     color: red;
     background-image: url(img/iconred.png);
-    background-position: left 0px;
+    background-position: 40px 0px;
     background-repeat: no-repeat;
-    padding: 0 0 0px 20px;
 }
 
 .p1list li:nth-child(1) {
