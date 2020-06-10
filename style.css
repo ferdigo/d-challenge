@@ -130,6 +130,10 @@ body {
     display: inline-block;
 }
 
+.challange-number {
+    display: block;
+}
+
 img {
     height: 50px;
 }
@@ -144,8 +148,6 @@ li {
 .p1 {
     display: inline-block;
 }
-
-.p1list li {}
 
 .p2 {
     display: inline-block;
@@ -196,4 +198,15 @@ li:hover {
     background-size: 37px;
     background-position: center 24px;
     font-weight: 800;
+}
+
+.pikchalist li:nth-child(1) {
+    color: hotpink;
+    font-size: 30px;
+    font-weight: 800;
+    text-shadow: 1px 1px purple;
+}
+
+.pikchalist li:first-child {
+    pointer-events: none;
 }
